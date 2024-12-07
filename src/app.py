@@ -6,3 +6,7 @@ ops=Database_Operations(db)
 
 # In this file you can use the `ops` object to access the operation in order to test them
 print("App file for database development")
+
+
+
+print(ops.planet_get(18))
